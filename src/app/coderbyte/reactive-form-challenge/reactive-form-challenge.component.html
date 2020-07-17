@@ -1,0 +1,12 @@
+<div>
+  <form class="form" action="" [formGroup]="form" (ngSubmit)="processForm()">
+    <input type="text" formControlName="firstname">
+    <input type="number" formControlName="age">
+    <input type="text" formControlName="lastname">
+    <input type="text" formControlName="twitter">
+
+  </form>
+
+  <pre>{{ form.value | json  }}</pre>
+
+</div>
