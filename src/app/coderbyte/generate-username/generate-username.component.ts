@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
-import {fn} from '@angular/compiler/src/output/output_ast';
 
 @Component({
   selector: 'app-generate-username',
   templateUrl: './generate-username.component.html',
   styleUrls: ['./generate-username.component.scss']
 })
+
 export class GenerateUsernameComponent implements OnInit {
   firstname: string = '';
   lastname: string = '';
@@ -14,7 +14,7 @@ export class GenerateUsernameComponent implements OnInit {
 
   }
 
-  onfnKeyup(data){
+  onFnKeyup(data){
     this.firstname = data
   }
 

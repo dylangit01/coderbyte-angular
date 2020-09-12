@@ -1,6 +1,6 @@
 <div>
 
-    <input type="text" id="firstname" #fn (keyup)="onfnKeyup(fn.value)">
+    <input type="text" id="firstname" #fn (keyup)="onFnKeyup(fn.value)">
     <input type="text" id="lastname" #ln (keyup)="onLnKeyup(ln.value)">
     <button (click)="generateName()">Generate</button>
     <span id="output">{{fullname}}</span>

@@ -10,6 +10,7 @@ import { GenerateUsernameComponent } from './coderbyte/generate-username/generat
 import { UIcomponentComponent } from './coderbyte/tic-tac-toe/uicomponent/uicomponent.component';
 import {GameBoardComponent} from './coderbyte/tic-tac-toe/game-board/game-board.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { PhoneBookReviewComponent } from './coderbyte/phone-book-review/phone-book-review.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     GenerateUsernameComponent,
     UIcomponentComponent,
     GameBoardComponent,
+    PhoneBookReviewComponent,
   ],
   imports: [
     BrowserModule,
